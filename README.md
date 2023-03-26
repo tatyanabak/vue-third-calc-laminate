@@ -1,7 +1,9 @@
-# Vue 3 + Vite
+# Калькулатор количества ламината на комнату
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+На данный момент проект позволяет грубо рассчитать примерное количество ламината.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Правки, которые необходимо добавить в будущем:
+1) позволять вводить в поля только числа (только значения > 0). При иных типах выводить ошибку.
+2) добавить поле "Отступ от стен" и добавить дополнительные расчеты
+3) добавить ряд полей "Дополнительная поверхность", "Исключить поверхность" и добавить ряд расчетов для них.
+4) Расширить типы укладки, добавить 2 направления у ровного направления.
